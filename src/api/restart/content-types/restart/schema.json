@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restarts",
+  "info": {
+    "singularName": "restart",
+    "pluralName": "restarts",
+    "displayName": "Restart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Date": {
+      "type": "datetime",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "developer": {
+      "type": "boolean"
+    },
+    "contactReason": {
+      "type": "text"
+    }
+  }
+}

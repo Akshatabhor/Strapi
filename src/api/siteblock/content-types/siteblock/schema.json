@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "siteblocks",
+  "info": {
+    "singularName": "siteblock",
+    "pluralName": "siteblocks",
+    "displayName": "siteblock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteblog": {
+      "type": "string"
+    }
+  }
+}
